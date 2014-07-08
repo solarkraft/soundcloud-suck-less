@@ -10,3 +10,5 @@ The player is on the bottom (seriously, that's almost unusable) and the statusba
 ### After
 The player is back on the top again where it belongs and a flat look has been applied to most of the items. Also the name has been collapsed again and it just looks a lot more professional and elegant overall. 
 ![The SoundCloud website after applying the Userscript](http://i.imgur.com/7tUSghk.png)
+
+In case you need help with installing: [Installing Greasemonkey Scripts - Userscript.org](http://userscripts.org:8080/about/installing)
