@@ -11,5 +11,5 @@ The player is on the bottom (seriously, that's almost unusable) and the statusba
 ![The SoundCloud website before applying the Userscript](http://i.imgur.com/VPCBEY7.png)
 
 ### After
-The player is back on the top again where it belongs and a flat look has been applied to most of the items. Also the name has been collapsed again and it just looks a lot more professional and elegant overall. 
+The player is back on the top again where it belongs and a flat look has been applied to most of the items. Also the name has been collapsed again and the ad has been hiddenso it looks a lot more clean and professional overall. 
 ![The SoundCloud website after applying the Userscript](http://i.imgur.com/7tUSghk.png)
