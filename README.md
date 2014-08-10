@@ -5,7 +5,7 @@ A super hacky userscript to temporarly fix the soundcloud website until they fin
 
 ## Installation
 
-First you need a Greasemonkey from the [Mozilla addon registry](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/). 
+First you need a Greasemonkey from the [Firefox addon registry](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/). 
 Then [just click this link](https://github.com/netsurfer912/soundcloud-suck-less/raw/master/sc-suck-less.user.js) and a dialog should appear asking whether you want to install the userscript (why else youl you be here, duh). 
 That's it! Just [visit Soundcloud.com](http://soundcloud.com/) or reload a current tab and you should see the mess cleaned up. 
 
@@ -19,3 +19,5 @@ The player is on the bottom (seriously, that's almost unusable) and the statusba
 ### After
 The player is back on the top again where it belongs and a flat look has been applied to most of the items. Also the name has been collapsed again and the ad has been hiddenso it looks a lot more clean and professional overall. 
 ![The SoundCloud website after applying the Userscript](http://i.imgur.com/7tUSghk.png)
+
+[convinced?](#readme)
