@@ -11,13 +11,11 @@ That's it! Just [visit Soundcloud.com](http://soundcloud.com/) or reload a curre
 
 The same procedure should with [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), although I haven't tested it yet. 
 
-
-### Before
-The player is on the bottom (seriously, that's almost unusable) and the statusbar just looks horrible. 
-![The SoundCloud website before applying the Userscript](http://i.imgur.com/VPCBEY7.png)
-
-### After
-The player is back on the top again where it belongs and a flat look has been applied to most of the items. Also the name has been collapsed again and the ad has been hiddenso it looks a lot more clean and professional overall. 
 ![The SoundCloud website after applying the Userscript](http://i.imgur.com/7tUSghk.png)
+The player is back on the top again where it belongs and a flat look has been applied to most of the items. Also the name has been collapsed again and the ad has been hiddenso it looks a lot more clean and professional overall. 
+
+
+This is how unusable it was before, in case you forgot
+![The SoundCloud website before applying the Userscript](http://i.imgur.com/VPCBEY7.png)
 
 [convinced?](#readme)
