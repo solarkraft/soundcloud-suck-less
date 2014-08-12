@@ -1,7 +1,7 @@
 soundcloud-suck-less
 ====================
 
-A super hacky userscript to temporarly fix the soundcloud website until they finally do it themselves. 
+A userscript giving the soundcloud website a more usable and polished looking user interface. 
 
 ## Installation
 
