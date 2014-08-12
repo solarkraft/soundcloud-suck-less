@@ -3,24 +3,27 @@
 // @namespace   sc-suck-less
 // @description Super hacky and temporary fixes until soundclound finally get their shit together
 // @include     *//soundcloud.com/*
-// @version     0.1
+// @exlude     *//soundcloud.com/*#resuck
+// @version     0.3
 // @grant       none
 // ==/UserScript==
 // Made by Paul Hendrix; GPL
+
 function injectStyles(rule) {
   var div = $("<div />", {
     html: '&shy;<style>' + rule + '</style>'
   }).appendTo("body");    
 }
-injectStyles("header, div.userNav.sc-clearfix, a.userNav__item.userNav__button { background: #333 !important; box-shadow: none; border: none; }"); //remove gradients, shadows and borders
+injectStyles("header, div.userNav.sc-clearfix, a.userNav__item.userNav__button, div.header__navMenu > li > a.selected { background: #333 !important; box-shadow: none; border: none !important; }"); //remove gradients, shadows and borders
 injectStyles("header { height: 45px !important; padding: 2px 0; }"); //fix visual glitch
-
 injectStyles(".playControls { position: fixed; top: -7px; right: 28px; }");
 injectStyles('.header__link:not(.uploadButton) { display: none; }'); //hide "go pro" ad
 injectStyles("div.header__userNav { margin-right: 320px; }"); 
 injectStyles("div.userNav__username.sc-truncate { displplayConay: none !important; }");
 injectStyles("div.userNav__item { display: none; }"); 
 injectStyles(".playControls__wrapper { border-radius: 0; background: none; }");
+injectStyles(".playControls__inner { transform: translate3d(0, 9px, 0) !important; }"); 
+injectStyles(".playControl { margin-left: -3px; }");
 injectStyles(".playControls__controls { background: none; }");
 injectStyles("h1.header__logo { padding: 2px 0; border: none; box-shadow: none; position: relative; top: -2px; }");
 injectStyles("h1.header__logo a { border: none; box-shadow: none; }");
@@ -33,3 +36,9 @@ injectStyles(".loading { background-image: url(data:image/svg+xml;base64,PHN2ZyB
 injectStyles(".userNav__avatar { border-radius: 0;}"); 
 injectStyles("playControls g-z-index-header visible { border-radius: 0;}");
 injectStyles(".sc-button:hover, .sc-button:focus, .sc-button-focus { box-shadow: none; text-shadow: none; }");
+injectStyles(".sc-button-medium.sc-button-follow {width: 98px;background-color: #EEE !important;color: black !important;text-shadow: unset;border-color: rgba(0, 0, 0, 0.1) !important;}");
+injectStyles(".sc-button-medium.sc-button-cta.sc-button-follow[title='Follow Back'] {background-color: green;}");
+injectStyles("header, g-dark {box-shadow: 0 0 11px rgba(0,0,0,0.5);}"); //apply shadow to header dropdownMenu
+//injectStyles('@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700); *{ font-family: "Lato", sans-serif; }');
+injectStyles("div.dropdownMenu.g-z-index-overlay { transform: translateY(0); }"); 
+injectStyles("header img.userNav__avatar { height: 25px; width: 25px; } div.header__soundInput { transform: translateX(4px); }"); 
