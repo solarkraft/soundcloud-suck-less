@@ -1,7 +1,7 @@
 soundcloud-suck-less
 ====================
 
-A userscript giving the soundcloud website a more usable and polished looking user interface. 
+A userscript giving the soundcloud website a more usable and polished looking user interface (Doesn't work anymore, some things I did are now official, some are even worse now. I kind of just use Spotify now even though it's more commercial, Soundcloud is trying to do the same thing anyway). 
 
 ## Installation
 
